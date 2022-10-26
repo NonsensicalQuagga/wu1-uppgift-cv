@@ -1,12 +1,13 @@
 
 nav {
-    display: flex;
+    background-color: black;
+    display: grid;
     justify-content: space-between;
     align-items: center;
 }
 nav > ul{
     list-style: none;
-    display: flex;
+    display: grid;
     gap: 1rem;
     padding: 0;
 
@@ -14,7 +15,7 @@ nav > ul{
 
 .logo{
     display: grid;
-    max-width: 20%;
+    max-width: 100%;
     height: auto;
     align-items: center;
 }
