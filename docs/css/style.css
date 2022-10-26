@@ -1,0 +1,25 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+
+}
+
+.logo{
+    display: grid;
+    max-width: 20%;
+    height: auto;
+    align-items: center;
+}
+
+.container{
+    width: min(80ch, 100vw - 2rem);
+    margin-inline: auto;
+}
