@@ -24,3 +24,7 @@ nav > ul{
     width: min(80ch, 100vw - 2rem);
     margin-inline: auto;
 }
+
+img{
+    max-width: 100%;
+}
