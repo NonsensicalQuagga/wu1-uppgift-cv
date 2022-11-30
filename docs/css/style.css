@@ -5,7 +5,7 @@ body{
 }
 
 .logo{
-    width: min(15%);
+    width: 15%;
 }
 
 .container{
@@ -56,4 +56,26 @@ main > h3{
 main > h4{
     margin: 0;
     margin-bottom: 0.5rem;
+}
+.smalllogo{
+    width: 35%;
+    display: none;
+}
+
+@media (max-width: 479px) {
+    header{
+        padding: 0;
+        font-size: 1rem;
+        justify-content: unset;
+    }
+    .logo{
+        display: none;
+    }
+    .smalllogo{
+        display: flex;
+    }
+    nav > ul{
+        padding-top: 2rem;
+        padding-left: 1rem;
+    }
 }
