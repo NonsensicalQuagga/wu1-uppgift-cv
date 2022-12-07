@@ -20,6 +20,5 @@ Kolla igenom dokument med checklista:
 
 fixad genom att sätta alla li element inom ul element
 
-
-
+Ändrade beskrivningen av logotyperna och ändrade färg på länkarna
 
