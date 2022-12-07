@@ -22,3 +22,6 @@ fixad genom att sätta alla li element inom ul element
 
 Ändrade beskrivningen av logotyperna och ändrade färg på länkarna
 
+
+Img hadde inte bestämd storlek. 
+fixade li så att den inte hade liststyle igen. (min ändring för att fixa dom 21 felen gjorde så att min css inte gjorde någonting)
