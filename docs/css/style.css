@@ -4,10 +4,6 @@ body{
     font-family: sans-serif;
 }
 
-.logo{
-    width: 11rem;
-}
-
 .container{
     width: min(80ch, 100vw - 4rem);
     margin-inline: auto;
@@ -66,7 +62,6 @@ main > h4{
     margin-bottom: 0.5rem;
 }
 .smalllogo{
-    width: 10rem;
     display: none;
 }
 
@@ -81,6 +76,7 @@ main > h4{
     }
     .smalllogo{
         display: flex;
+        padding: 1rem;
     }
     nav > ul{
         padding-top: 2rem;
